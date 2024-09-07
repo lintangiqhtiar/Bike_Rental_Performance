@@ -9,5 +9,5 @@ pip install -r requirements.txt
 ## Run Streamlit App
 Add the command below to run the Streamlit App
 ```
-streamlit run dashboard/Dashboard_Proyek_DA.py
+streamlit run Dashboard_Proyek_DA.py
 ```
