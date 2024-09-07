@@ -6,10 +6,8 @@ import streamlit as st
 from babel.numbers import format_currency
 sns.set(style='dark')
 
-file_path_day = "cleaned_df_day.csv"
-df_day = pd.read_csv(file_path_day)
-file_path_hour = "cleaned_df_hour.csv"
-df_hour = pd.read_csv(file_path_hour)
+df_day = pd.read_csv("cleaned_df_day.csv")
+df_hour = pd.read_csv("cleaned_df_hour.csv")
 
 def create_performance_df(df):
    # Mengelompokkan data berdasarkan 'dteday' dan menjumlahkan 'cnt'
