@@ -7,8 +7,8 @@ You may need to install additional libraries for running the notebook.
 pip install -r requirements.txt
 ```
 ## Run Streamlit App
-Add the command below to run the Streamlit App
+Download this repositori and run this command below in your terminal /CMD 
 ```
-cd path/to/submission/dashboard
+cd path/to/submission-main/dashboard
 streamlit run Dashboard_Proyek_DA.py
 ```
