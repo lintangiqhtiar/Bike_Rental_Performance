@@ -10,7 +10,5 @@ pip install -r requirements.txt
 ## Run Streamlit App - Google Colab Notebook
 Add the command below to run the Streamlit App
 ```
-pip install streamlit -q
-!wget -q -O - ipv4.icanhazip.com
-! streamlit run '/content/drive/MyDrive/dashboard/Dashboard_Proyek_DA.py' & npx localtunnel --port 8501
+streamlit run dashboard/Dashboard_Proyek_DA.py
 ```
