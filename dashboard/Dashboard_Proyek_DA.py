@@ -6,9 +6,9 @@ import streamlit as st
 from babel.numbers import format_currency
 sns.set(style='dark')
 
-file_path_day = "dashboard/cleaned_df_day.csv"
+file_path_day = "cleaned_df_day.csv"
 df_day = pd.read_csv(file_path_day)
-file_path_hour = "dashboard/cleaned_df_hour.csv"
+file_path_hour = "cleaned_df_hour.csv"
 df_hour = pd.read_csv(file_path_hour)
 
 def create_performance_df(df):
